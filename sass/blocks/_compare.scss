@@ -1,0 +1,55 @@
+.compare{
+	&__underline{
+		margin: 40px 0;
+		border: none;
+		height: 2px;
+		background: #E6E8EC;
+	}
+	&__title{
+		margin-top: 40px;
+		h2{
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 65px;
+			line-height: 58px;
+			text-align: center;
+			color: #222222;
+		}
+		img{
+			display: block;
+			margin: 15px auto 0 auto;
+			width: 200px;
+		}
+		&-btn{
+			display: block;
+			margin: 0 auto;
+			width: 150px;
+			height: 30px;
+			background: #3772FF;
+			border-radius: 90px;
+			border: none;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-align: center;
+			color: #ffffff;
+			box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+			margin-bottom: 15px;
+		}
+	}
+	&__wrapper{
+		margin-top: 25px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.tradingview-widget-container{
+			margin: 0 50px;
+		}
+	}
+	
+}
+
