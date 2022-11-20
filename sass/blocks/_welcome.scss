@@ -27,6 +27,11 @@
 			display: block;
 			margin: 15px auto 0 auto;
 			width: 200px;
+			transition: transform 0.5s;
+			&:hover{
+				transform: scale(1.75);
+				cursor: pointer;
+			}
 		}
 	}
 }

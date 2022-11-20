@@ -7,6 +7,11 @@
 			margin: 15px auto 0 auto;
 			width: 200px;
 			filter: drop-shadow(20px 12px 20px #819ed3);
+			transition: transform 0.5s;
+			&:hover{
+				transform: scale(1.25);
+				cursor: pointer;
+			}
 		}
 		&-btn{
 			display: block;
@@ -50,9 +55,11 @@
 			}
 		}
 		&-leads{
-			margin: 35px 230px 0 230px;
+			margin-top: 35px;
 			display: flex;
 			flex-wrap: wrap;
+			row-gap: 25px;
+			column-gap: 100px;
 			justify-content: center;
 			&-item{
 				width: 294px;
@@ -78,6 +85,11 @@
 				}
 				img{
 					filter: drop-shadow(12px 8px 12px #F7859C);
+					transition: transform 0.5s;
+					&:hover{
+						transform: scale(1.25);
+						cursor: pointer;
+					}
 				}
 			}
 		}
