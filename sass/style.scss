@@ -1,0 +1,24 @@
+@import 'base/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+@import 'blocks/header';
+@import 'blocks/welcome';
+@import 'blocks/stock';
+@import 'blocks/team';

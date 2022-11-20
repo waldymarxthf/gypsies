@@ -1,0 +1,36 @@
+.stock{
+	&__wrapper{
+		h3{
+			margin-top: 25px;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-align: center;
+			color: #777E91;
+		}
+		p{
+			margin-top: 25px;
+			margin-bottom: 50px;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-align: center;
+			color: #f88080;
+		}
+		&-diagr{
+			margin-top: 20px;
+		}
+	}
+	&__underline{
+		margin-top: 15px;
+		border: none;
+		height: 2px;
+		background: #E6E8EC;
+	}
+}

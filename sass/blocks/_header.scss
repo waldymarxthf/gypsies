@@ -1,0 +1,27 @@
+.header{
+    min-height: 73px;
+    padding: 21px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 32px;
+            width: 32px;
+            margin: 0 10px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #23262F;
+        }
+    }
+    &__underline{
+        margin-top: 15px;
+        border: none;
+        height: 2px;
+        background: #E6E8EC;
+    }
+}

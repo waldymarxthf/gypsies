@@ -1,0 +1,32 @@
+.welcome{
+	position: relative;
+	&__wrapper{
+		padding-top: 10px;
+		h2{
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-align: center;
+			color: #777E91;
+		}
+		h1{
+			margin-top: 15px;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 48px;
+			text-align: center;
+			letter-spacing: -0.01em;
+			color: #23262F;
+		}
+		img{
+			display: block;
+			margin: 15px auto 0 auto;
+			width: 200px;
+		}
+	}
+}
