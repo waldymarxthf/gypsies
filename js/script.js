@@ -43,9 +43,7 @@ new TradingView.widget(
   "allow_symbol_change": true,
   "save_image": false,
   "studies": [
-    "ROC@tv-basicstudies",
     "StochasticRSI@tv-basicstudies",
-    "MASimple@tv-basicstudies"
   ],
   "show_popup_button": true,
   "popup_width": "1000",
