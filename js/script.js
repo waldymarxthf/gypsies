@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 24, 2022 12:00:00").getTime();
+var countDownDate = new Date("Nov 24, 2022 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -42,9 +42,6 @@ new TradingView.widget(
   "withdateranges": true,
   "allow_symbol_change": true,
   "save_image": false,
-  "studies": [
-    "StochasticRSI@tv-basicstudies",
-  ],
   "show_popup_button": true,
   "popup_width": "1000",
   "popup_height": "650",
